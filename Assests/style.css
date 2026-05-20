@@ -1,0 +1,110 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.todo-list{
+    padding: 40px;
+    border: 1px solid white;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+.input{
+    padding: 16px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-right: -150px;
+    border: 0px ;
+}
+
+
+.input:focus-visible{
+    outline: none;
+    box-shadow: none;
+}
+
+.add-button{
+    background-color: black;
+    padding: 16px;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 0px;
+}
+
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.output{
+    /* background-color: white; */
+    color: black;
+    /* padding: 10px; */
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* CSS for list */
+
+#output{
+    padding: 0px;
+    height: 330px;
+    width: 100%;
+    overflow-y:auto;
+}
+
+#output li{
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#removeButton{
+    background-color: red;
+    width: 100px;
+    color: white;
+    padding: 10px 0px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#output li{
+    display: flex;
+}
